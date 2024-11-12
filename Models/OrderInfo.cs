@@ -4,7 +4,7 @@ namespace cldv6212_poe_final_st10187895.Models
 {
     public class OrderInfo
     {
-        public static string con_string = "Server=tcp:st10187895.database.windows.net,1433;Initial Catalog=CLDV6212POEPART3;Persist Security Info=False;User ID=st10187895;Password=MMcCord23$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+        public static string con_string = "REDACTED";
         public static SqlConnection con = new SqlConnection(con_string);
 
         public int orderID { get; set; }
